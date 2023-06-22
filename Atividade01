@@ -3,5 +3,5 @@ algoritmo "atividade1"
 var
 
 inicio
-  escreva ("Ol� Mundo!")
+  escreva ("Ola Mundo!")
 fimalgoritmo
