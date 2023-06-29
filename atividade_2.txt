@@ -1,0 +1,11 @@
+algoritmo "Atividade 2"
+// Função: Recebe um nome pelo prompt e retorna com a frase de boa-vindas
+// Autor: Augusto Cesar
+// Data: 22/06/2023
+var
+	nome: CARACTERE
+inicio
+	ESCREVA("Olá! Digite seu nome: ")
+	LEIA(nome)
+	ESCREVA("Seja bem vind(@) ", nome)
+fimalgoritmo
