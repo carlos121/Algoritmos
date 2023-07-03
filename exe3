@@ -1,0 +1,25 @@
+Algoritmo "exe3"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Carlos Sousa
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 02/07/2023
+Var
+// Seção de Declarações das variáveis 
+  funcionario : caractere;
+  salario : real;
+  
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   //Entrada de dados
+   Escreva("Nome do Funcionario:")
+   leia(funcionario)
+   Escreva("Informe o seu salario:")
+   leia(salario)
+   
+   //Pula linha
+   Escreval()
+   
+   //Saída
+   Escreval("O funcionario ",funcionario," tem um salario de R$",salario:0:2)
+Fimalgoritmo
