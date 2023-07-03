@@ -1,0 +1,27 @@
+Algoritmo "exe4"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Carlos Sousa
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 02/07/2023
+Var
+// Seção de Declarações das variáveis
+    v1,v2,total : inteiro;
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   //Entrada de dados
+   Escreva("Informe o primeiro valor:")
+   leia(v1)
+   Escreva("Informe o segundo valor:")
+   leia(v2)
+
+   //processamento
+   total := v1 + v2
+   
+   //Pula linha
+   Escreval()
+
+   //Saída
+   Escreval("A soma entre",v1," e",v2," e igual a",total)
+Fimalgoritmo
