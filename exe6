@@ -1,0 +1,27 @@
+Algoritmo "exe6"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Autor       : Carlos Sousa
+// Descrição   : Faça um programa que leia um número inteiro
+// e mostre o seu antecessor e seu sucessor.
+// Data atual  : 02/07/2023
+Var
+// Seção de Declarações das variáveis
+    numero,antecessor,sucessor : inteiro;
+    
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   //Entrada de dados
+   Escreva("Informe um numero:")
+   leia(numero)
+
+   //processamento
+   antecessor := numero - 1
+   sucessor   := numero + 1
+   
+   //Pula linha
+   Escreval()
+
+   //Saída
+   Escreval("O antecessor de",numero," é",antecessor)
+   Escreval("O sucessor de",numero," é",sucessor)
+Fimalgoritmo
