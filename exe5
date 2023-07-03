@@ -1,0 +1,26 @@
+Algoritmo "exe5"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Autor   : Carlos Sousa
+// Descrição   : somar dois numeros e mostrar a media da soma! (função)
+// Data atual  : 02/07/2023
+Var
+// Seção de Declarações das variáveis
+    n1,n2,media : real;
+    
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   //Entrada de dados
+   Escreva("Primeira Nota:")
+   leia(n1)
+   Escreva("Segunda Nota:")
+   leia(n2)
+
+   //processamento
+   media := (n1 + n2) / 2
+   
+   //Pula linha
+   Escreval()
+
+   //Saída
+   Escreval("A media entre",n1," e",n2," e igual a",media:0:2)
+Fimalgoritmo
