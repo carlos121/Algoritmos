@@ -1,0 +1,22 @@
+Algoritmo "Idade"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Carlos Sousa
+// Data atual  : 10/07/2023
+Var
+// Seção de Declarações das variáveis
+  ano_atual,ano_nasc,idade : inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   //Entrada
+   Escreva("Informe o ano atual:")
+   Leia(ano_atual)
+   Escreva("Informe o ano de nascimento:")
+   Leia(ano_nasc)
+   
+   //Processamento
+   idade <- ano_atual - ano_nasc
+
+   //Saída
+   Escreval("Minha idade é:",idade," anos!")
+Fimalgoritmo
